@@ -1,0 +1,18 @@
+---
+const { title } = Astro.props;
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title} | Yakhsyaa</title>
+</head>
+<body>
+    <h1 style="background-color: aquamarine;">{title}</h1>
+    <slot>
+    </slot>
+</body>
+</html>
